@@ -1,4 +1,4 @@
-# file_to_mp3
+# File to MP3 Converter
 
 Convert text-based files (PDFs, PPTX, DOCX, TXT) into MP3 audio using Python. Leverage Google Translate, pyttsx3, PyPDF2, and python-pptx/python-docx for translation, speech synthesis, and file handling. Enhance accessibility and learning by turning content into spoken audio.
 
