@@ -63,6 +63,10 @@ Useful links to do it:
 - [Stack Overflow](https://stackoverflow.com/questions/66884970/how-to-add-your-own-tts-voices-for-pyttsx3-python)
 - [Step by Step Guide](https://puneet166.medium.com/how-to-added-more-speakers-and-voices-in-pyttsx3-offline-text-to-speech-812c83d14c13)
 
+### file_to_mp3.exe
+
+Project converted into an executable file with auto-py-to-exe.
+
 ### file_to_mp3.py
 
 Main logic of the program, calling the functions from **functions.py** and handling the different file formats.
