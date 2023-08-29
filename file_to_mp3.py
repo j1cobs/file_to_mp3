@@ -13,7 +13,7 @@ engine = pyttsx3.init()  # Initiate the pyttsx3 module
 
     
 file_path = functions.select_file_type()
-# use the select_file function from the function.py file       
+# use the select_file function from the function.py file  
 
 file_type = file_path.split(".")[-1]  # Get the file type
     
