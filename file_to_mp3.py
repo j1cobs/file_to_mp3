@@ -45,8 +45,6 @@ if file_type == "pdf":
     # Clean the text to remove any newline
     clean_text = text.strip().replace("\n", " ")
 
-    print(text, "\n\n", clean_text)
-
 # PowerPoint
 elif file_type == "pptx":
     # open pptx file
