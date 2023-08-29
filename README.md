@@ -82,7 +82,7 @@ and run the GUI with
 auto-py-to-exe
 ```
 
-Just select the **file_to_mp3.py** file and the option _one file_
+Just select the **file_to_mp3.py** file and the option <u>one file</u>
 
 ### file_to_mp3.py
 
