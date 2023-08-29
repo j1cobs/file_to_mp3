@@ -38,7 +38,7 @@ pip install -r requirements.txt
 or just run the **install_packages.py** file:
 
 ```bash
-python install_package.py
+python install_packages.py
 ```
 
 **_Please note that this code assumes that you have pip installed and available in your system's PATH. Additionally, you should run this script using a Python interpreter that has sufficient permissions to install packages._**
