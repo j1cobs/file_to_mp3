@@ -66,6 +66,23 @@ Useful links to do it:
 ### file_to_mp3.exe
 
 Project converted into an executable file with auto-py-to-exe.
+It does not include the **Voices** folder, you need to put the two together to have multiple voices.
+
+You could also create that file yourself.
+
+First install **auto-py-to-exe** in your command prompt:
+
+```bash
+pip install auto-py-to-exe
+```
+
+and run the GUI with
+
+```bash
+auto-py-to-exe
+```
+
+Just select the **file_to_mp3.py** file and the option _one file_
 
 ### file_to_mp3.py
 
