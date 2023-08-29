@@ -59,8 +59,9 @@ Breakdown of every file/folder in that project
 
 This folder is where the voices are stored, you can add more if you would like.  
 Useful links to do it:
-https://stackoverflow.com/questions/66884970/how-to-add-your-own-tts-voices-for-pyttsx3-python
-https://puneet166.medium.com/how-to-added-more-speakers-and-voices-in-pyttsx3-offline-text-to-speech-812c83d14c13
+
+- [Stack Overflow](https://stackoverflow.com/questions/66884970/how-to-add-your-own-tts-voices-for-pyttsx3-python)
+- [Step by Step Guide](https://puneet166.medium.com/how-to-added-more-speakers-and-voices-in-pyttsx3-offline-text-to-speech-812c83d14c13)
 
 ### file_to_mp3.py
 
@@ -82,7 +83,7 @@ Modules needed for this project.
 
 ## Credits
 
-Inspiration for the project: https://youtu.be/LXsdt6RMNfY?si=G_lxIe-87cZIJ9Zf
+Inspiration for the project: [Youtube](https://youtu.be/LXsdt6RMNfY?si=G_lxIe-87cZIJ9Zf)
 
 ## License
 
