@@ -63,12 +63,12 @@ Useful links to do it:
 - [Stack Overflow](https://stackoverflow.com/questions/66884970/how-to-add-your-own-tts-voices-for-pyttsx3-python)
 - [Step by Step Guide](https://puneet166.medium.com/how-to-added-more-speakers-and-voices-in-pyttsx3-offline-text-to-speech-812c83d14c13)
 
-### file_to_mp3.exe
+### dist/file_to_mp3.exe
 
-Project converted into an executable file with auto-py-to-exe.
-It does not include the **Voices** folder, you need to put the two together to have multiple voices.
+Project converted into an executable file with pyinstaller.
+Update (Needs testing) : Tried to include the **Voices** folder in the exe file, not sure if it works yet.
 
-You could also create that file yourself.
+You could also create the exe file yourself.
 
 First install **auto-py-to-exe** in your command prompt:
 
