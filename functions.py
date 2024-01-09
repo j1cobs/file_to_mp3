@@ -93,13 +93,6 @@ def select_outpath():
     print(file_output)
     return file_output
 
-# Function to ignore header and footer from pdf
-def visitor_body(text, cm, tm, fontDict, fontSize):
-    global parts
-    parts = []
-    y = tm[5]
-    if y > 50 and y < 720:
-        parts.append(text)
 
 # Function to select the right voice
 def select_voice():

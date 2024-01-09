@@ -33,13 +33,21 @@ engine.setProperty("voice", voice_id_picked)
 # PDF
 if file_type == "pdf":
     text = ""
+    
+    parts = []
+    
+    # Function to ignore header and footer from pdf
+    def visitor_body(text, cm, tm, fontDict, fontSize):
+        y = tm[5]
+        if y > 50 and y < 720:
+            parts.append(text)
 
     reader = PdfReader(file_path)  # Read the select file
     count = len(reader.pages)  # Get the number of pages in the file
 
     for i in range(count):  # Iterate on the pages and add the text together
         page = reader.pages[i]
-        page.extract_text(visitor_text=functions.visitor_body)
+        page.extract_text(visitor_text=visitor_body)
         text += "".join(parts)
 
     # Clean the text to remove any newline
